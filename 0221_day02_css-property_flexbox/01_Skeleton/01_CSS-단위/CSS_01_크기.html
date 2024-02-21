@@ -33,7 +33,7 @@
         <li>부모 요소는 18px 입니다.</li>
         <li>.em (em클래스)의 font-size는 1.5em입니다.</li>
         <li class="em">1.5em</li>
-        <ul><li><!-- 몇 픽셀일까요? --></li></ul>
+        <ul><li>18*1.5=27px</li></ul>
       </ul>
     </div>
 
@@ -44,9 +44,10 @@
         <li>부모 요소는 18px 입니다.</li>
         <li>.rem (rem클래스)의 font-size는 1.4rem입니다.</li>
         <li class="rem">1.4rem</li>
-        <ul><li><!-- 몇 픽셀일까요? --></li></ul>
+        <ul><li>16*1.4=22.4px</li></ul>
         <li>no class</li>
-        <ul><li><!-- 몇 픽셀일까요? --></li></ul>
+        <ul><li>18px</li></ul>
+        <!-- 부모 클래스 안에 있는 것을 자각하자 -->
       </ul>
     </div>
 
@@ -56,7 +57,8 @@
       <ul>
         <li>other list no class</li>
         <ul>
-          <li><!-- 몇 픽셀일까요? --></li>
+          <li>20px</li>
+          <!-- paragraph.css의 body font-size가 20px이다 -->
           <li>부모의 내용 그대로</li>
         </ul>
       </ul>
