@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>테이블컨텐츠</title>
+  <link rel="stylesheet" href="./assets/css/table.css">
+</head>
+<body>
+  <h2>테이블 실습</h2>
+
+  <!-- 주석으로 표시된 부분을 수정해서 테이블을 만들어보세요 -->
+  <!-- MDN 문서 참고바람 -->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table -->
+  <table>
+    <colgroup>
+    <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>지역</th>
+        <th>반</th>
+        <th>대장</th>
+        <th>인원</th>
+      </tr>
+      <!-- 1행 start -->
+        <!-- 테이블 column 명 -->
+        <!-- 지역, 반, 대장, 인원 -->
+        <!-- 코드를 작성해보세요 -->
+      <!-- 1행 end -->
+    </thead>
+
+    <tbody>
+      <tr>
+      <th rowspan="4">서울</th>
+      <th>5반</th>
+      <th>강아지</th>
+      <th>29</th>
+      </tr>
+      
+      <tr>
+        <!-- <th scope="col">서울</th> -->
+        <th>6반</th>
+        <th>오리</th>
+        <th>29</th>
+      </tr>
+      <!-- 2행 start-->
+      <!-- 서울 -->
+      <!-- 5반🐶 -->
+      <!-- 강아지 -->
+      <!-- 29 -->
+      <!-- 2행 end-->
+      <tr>
+        <th>7반</th>
+        <th>복숭아</th>
+        <th>28</th>
+      </tr>
+      <tr>
+        <th>8반</th>
+        <th>고양이</th>
+        <th>27</th>
+      </tr>
+      <tr>
+        <th rowspan="2">대전</th>
+        <th>3반</th>
+        <th>독수리</th>
+        <th>26</th>
+      </tr>
+      <tr>
+        <th>4반</th>
+        <th>나무늘보</th>
+        <th>26</th>
+      </tr>
+      <tr>
+        <th colspan="3">조직원</th>
+        <th>165명</th>
+      </tr>
+      <!-- 3행 start-->
+        <!-- 6반🦆 -->
+        <!-- 오리 -->
+        <!-- 29 -->
+      <!-- 3행 end-->
+      
+      <!-- 4행 start-->
+        <!-- 7반🍑 -->
+        <!-- 복숭아 -->
+        <!-- 28 -->
+      <!-- 4행 end-->
+
+
+      <!-- 5행 start-->
+        <!-- 8반🐱 -->
+        <!-- 고양이 -->
+        <!-- 27 -->
+      <!-- 5행 end-->
+      
+      <!-- 6행 start-->
+        <!-- 대전 -->
+        <!-- 3반🦅 -->
+        <!-- 독수리 -->
+        <!-- 26 -->
+      <!-- 6행 end-->
+  
+      <!-- 7행 start-->
+        <!-- 4반🦥 -->
+        <!-- 나무늘보 -->
+        <!-- 26 -->
+      <!-- 7행 end-->
+      
+    </tbody>
+
+    <tfoot>
+      <!-- 8행 start-->
+        <!-- 조직원 -->
+        <!-- 165명 -->
+    </tfoot>
+
+    <caption>자바비전공자반</caption>
+
+  </table>
+</body>
+</html>
