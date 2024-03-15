@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+        font-family: "Gowun Dodum", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+header {
+    width : 100%;
+    height: 50px;
+    color : white;
+    position : fixed;
+    top: 0;
+    background-color: rgb(33, 84, 114);
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: 0 auto; */
+    margin : 3.2rem 0.8rem;  
+    align-items: center;
+
+}
+
+footer {
+    width : 100%;
+    height: 2rem;
+    color : white;
+    position: fixed;
+    bottom : 0;
+    background-color: rgb(33, 84, 114);
+}
+
+#white {
+    color : white;
+}
+
+.img-100 {
+    height : 100px;
+    width : 1000px;
+}
+
+.img-10 {
+    height : 150px;
+    width : 280px;
+}
+
+.img-20 {
+    height : 150px;
+    width : 340px;
+    margin : 0;
+}
+
+
+.video-10 {
+    height : 250px;
+    width : 280px;
+}
+
+.video-disp {
+    display: flex;
+    justify-content: center;
+}
+
+.span-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 290px;
+    left : 10%;
+    
+}

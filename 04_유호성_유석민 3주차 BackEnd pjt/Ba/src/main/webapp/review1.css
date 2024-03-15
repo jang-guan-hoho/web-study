@@ -1,0 +1,79 @@
+
+header > nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin-top: 15px;
+    /* position: relative;
+    right: 0px; */
+}
+
+header{
+    margin: 0;
+    padding: 0%;
+}
+.video{
+    display: flex;
+}
+.video > iframe{
+    justify-content: center;
+}
+.title{
+    display : flex;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+#number{
+    flex-grow: 2;
+    display: flex;
+    justify-content: start;
+}
+#title{
+    flex-grow: 15;
+    display: flex;
+    justify-content: start;
+}
+#author{
+    flex-grow: 5;
+    display: flex;
+    justify-content: start;
+}
+#count{
+    flex-grow: 2;
+    display: flex;
+    justify-content: start;
+}
+#time{
+    flex-grow: 8;
+    display: flex;
+    justify-content: start;
+}
+footer{
+    display: flex;
+    position: relative;
+  justify-content: center;
+  bottom: 0px;
+}
+.navbar > a{
+    position: relative;
+    left: 1%;
+}
+.form-inline *{
+    position: relative;
+    right: 30%;
+}
+#searchBar{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 20px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
